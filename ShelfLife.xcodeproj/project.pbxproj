@@ -13,6 +13,15 @@
 		A538D6132BF0B7AE0001D8D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A538D6122BF0B7AE0001D8D1 /* Preview Assets.xcassets */; };
 		A538D6152BF0B7AE0001D8D1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A538D6142BF0B7AE0001D8D1 /* Persistence.swift */; };
 		A538D6182BF0B7AE0001D8D1 /* ShelfLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A538D6162BF0B7AE0001D8D1 /* ShelfLife.xcdatamodeld */; };
+		A538D6252BF12DB90001D8D1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A538D6242BF12DB90001D8D1 /* WelcomeView.swift */; };
+		A538D6272BF12DD80001D8D1 /* InitialSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A538D6262BF12DD80001D8D1 /* InitialSetupView.swift */; };
+		A538D6292BF12DED0001D8D1 /* InitialAddNewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A538D6282BF12DED0001D8D1 /* InitialAddNewItemView.swift */; };
+		A538D62B2BF18DA20001D8D1 /* FridgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A538D62A2BF18DA20001D8D1 /* FridgeView.swift */; };
+		A538D62D2BF18DB90001D8D1 /* PantryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A538D62C2BF18DB90001D8D1 /* PantryView.swift */; };
+		A5B896472C1FE6BF005084A8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B896462C1FE6BF005084A8 /* Constants.swift */; };
+		A5B896492C1FEAB6005084A8 /* BulkAddNewItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B896482C1FEAB5005084A8 /* BulkAddNewItemsView.swift */; };
+		A5FDF6962BF360A100631F52 /* AddNewFridgeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FDF6952BF360A100631F52 /* AddNewFridgeItemView.swift */; };
+		A5FDF6982BF360B000631F52 /* AddNewPantryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FDF6972BF360B000631F52 /* AddNewPantryItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +32,16 @@
 		A538D6122BF0B7AE0001D8D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A538D6142BF0B7AE0001D8D1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A538D6172BF0B7AE0001D8D1 /* ShelfLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShelfLife.xcdatamodel; sourceTree = "<group>"; };
+		A538D6242BF12DB90001D8D1 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		A538D6262BF12DD80001D8D1 /* InitialSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSetupView.swift; sourceTree = "<group>"; };
+		A538D6282BF12DED0001D8D1 /* InitialAddNewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialAddNewItemView.swift; sourceTree = "<group>"; };
+		A538D62A2BF18DA20001D8D1 /* FridgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeView.swift; sourceTree = "<group>"; };
+		A538D62C2BF18DB90001D8D1 /* PantryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryView.swift; sourceTree = "<group>"; };
+		A591D81B2C1EA3A60013114D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A5B896462C1FE6BF005084A8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A5B896482C1FEAB5005084A8 /* BulkAddNewItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkAddNewItemsView.swift; sourceTree = "<group>"; };
+		A5FDF6952BF360A100631F52 /* AddNewFridgeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewFridgeItemView.swift; sourceTree = "<group>"; };
+		A5FDF6972BF360B000631F52 /* AddNewPantryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPantryItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +74,22 @@
 		A538D60A2BF0B7AB0001D8D1 /* ShelfLife */ = {
 			isa = PBXGroup;
 			children = (
+				A591D81B2C1EA3A60013114D /* Info.plist */,
 				A538D60B2BF0B7AB0001D8D1 /* ShelfLifeApp.swift */,
 				A538D60D2BF0B7AB0001D8D1 /* ContentView.swift */,
 				A538D60F2BF0B7AE0001D8D1 /* Assets.xcassets */,
 				A538D6142BF0B7AE0001D8D1 /* Persistence.swift */,
 				A538D6162BF0B7AE0001D8D1 /* ShelfLife.xcdatamodeld */,
 				A538D6112BF0B7AE0001D8D1 /* Preview Content */,
+				A538D6242BF12DB90001D8D1 /* WelcomeView.swift */,
+				A538D6262BF12DD80001D8D1 /* InitialSetupView.swift */,
+				A538D6282BF12DED0001D8D1 /* InitialAddNewItemView.swift */,
+				A538D62A2BF18DA20001D8D1 /* FridgeView.swift */,
+				A538D62C2BF18DB90001D8D1 /* PantryView.swift */,
+				A5FDF6952BF360A100631F52 /* AddNewFridgeItemView.swift */,
+				A5FDF6972BF360B000631F52 /* AddNewPantryItemView.swift */,
+				A5B896462C1FE6BF005084A8 /* Constants.swift */,
+				A5B896482C1FEAB5005084A8 /* BulkAddNewItemsView.swift */,
 			);
 			path = ShelfLife;
 			sourceTree = "<group>";
@@ -143,10 +172,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A538D6252BF12DB90001D8D1 /* WelcomeView.swift in Sources */,
+				A538D6272BF12DD80001D8D1 /* InitialSetupView.swift in Sources */,
 				A538D6182BF0B7AE0001D8D1 /* ShelfLife.xcdatamodeld in Sources */,
+				A5B896492C1FEAB6005084A8 /* BulkAddNewItemsView.swift in Sources */,
+				A5FDF6962BF360A100631F52 /* AddNewFridgeItemView.swift in Sources */,
 				A538D6152BF0B7AE0001D8D1 /* Persistence.swift in Sources */,
+				A538D6292BF12DED0001D8D1 /* InitialAddNewItemView.swift in Sources */,
 				A538D60E2BF0B7AB0001D8D1 /* ContentView.swift in Sources */,
+				A538D62D2BF18DB90001D8D1 /* PantryView.swift in Sources */,
 				A538D60C2BF0B7AB0001D8D1 /* ShelfLifeApp.swift in Sources */,
+				A5FDF6982BF360B000631F52 /* AddNewPantryItemView.swift in Sources */,
+				A538D62B2BF18DA20001D8D1 /* FridgeView.swift in Sources */,
+				A5B896472C1FE6BF005084A8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +316,7 @@
 				DEVELOPMENT_TEAM = 525674AU2A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShelfLife/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +346,7 @@
 				DEVELOPMENT_TEAM = 525674AU2A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShelfLife/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -8,13 +8,21 @@
 import SwiftUI
 
 @main
-struct ShelfLifeApp: App {
+struct YourApp: App {
+    @AppStorage(UserDefaultsKeys.hasCompletedInitialSetup) var hasCompletedInitialSetup: Bool = false
     let persistenceController = PersistenceController.shared
-
+    
     var body: some Scene {
+        
+        // Checks to see if user has opened the app before
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            if hasCompletedInitialSetup {
+                ContentView()
+                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            } else {
+                WelcomeView()
+                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            }
         }
     }
 }
